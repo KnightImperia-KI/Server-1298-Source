@@ -1,0 +1,12 @@
+VS2022 RELEASE BUILD
+=====================
+Solution: Server.sln
+Configuration: Release
+Platform: x86
+
+The project files were normalized for VS2022/v143. Legacy UpgradeFromVC60 imports were removed and malformed/legacy property imports were corrected.
+
+Build from Developer Command Prompt for VS2022:
+  msbuild Server.sln /m /p:Configuration=Release /p:Platform=x86
+
+Important: this package was structurally/XML validated in the available environment, but a native Windows MSVC build was not executed here.

@@ -1,0 +1,368 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korece (Güney Kore) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 18, 1\r\n"
+    "#pragma code_page(949)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Ebenezer.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.kor\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Ebenezer.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_EBENEZER_DIALOG DIALOGEX 0, 0, 274, 183
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "GameServer Ver - 20260328"
+FONT 9, "Arial", 400, 0, 0xA2
+BEGIN
+    LISTBOX         1000,6,4,168,139,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        1002,10,158,160,12,ES_AUTOHSCROLL
+    GROUPBOX        "Announce",-1,6,147,168,31
+    LTEXT           "Ver.",-1,183,13,21,9
+    GROUPBOX        "ServerInfo",-1,177,0,93,178
+    LTEXT           "Mode ",-1,183,31,25,9
+    EDITTEXT        1007,209,12,58,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        1009,209,30,58,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Battle ",-1,183,49,25,9
+    EDITTEXT        1010,209,48,58,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Siege ",-1,183,67,25,9
+    EDITTEXT        1011,209,66,58,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "DisCo ",-1,183,85,25,9
+    EDITTEXT        1012,209,84,58,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Event ",-1,183,103,25,9
+    EDITTEXT        1013,209,102,58,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Money :",-1,183,121,25,9
+    EDITTEXT        1014,209,120,58,12,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "Refresh",1008,185,157,78,16
+    LTEXT           "Count ",-1,182,138,25,9
+    EDITTEXT        1015,209,137,58,12,ES_AUTOHSCROLL | ES_READONLY
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041204b0"
+        BEGIN
+            VALUE "FileDescription", "Ebenezer MFC Application"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "Ebenezer"
+            VALUE "LegalCopyright", "Copyright (C) 2001"
+            VALUE "OriginalFilename", "Ebenezer.EXE"
+            VALUE "ProductName", "Ebenezer Application"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_EBENEZER_DIALOG, DIALOG
+    BEGIN
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_EBENEZER_DIALOG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "Ebenezer Á¤º¸(&A)..."
+    IDP_SOCKETS_INIT_FAILED "Windows Communication sockets initialization failed."
+    IDP_BATTLEZONE_OPEN     "Lunar Gate is now open.  The War has begun."
+    IDP_KARUS_VICTORY       "Karus is victorious. They killed %d warriors and lost %d warriors"
+    IDP_ELMORAD_VICTORY     "El Morad is victorious. They killed %d warriors and lost %d warriors"
+    IDP_KARUS_BANISH        "El Morad warriors in the battle zone have been banned!"
+    IDP_ELMORAD_BANISH      "Karus warriors in the battle zone have been banned!"
+    IDP_KNIGHT_NAME_REPEAT  "This Knights name already exist."
+    IDP_KNIGHT_ALREADY_REGISTERED "You are already in a Knights"
+END
+
+STRINGTABLE
+BEGIN
+    IDP_KNIGHT_INSUFFICIENT_LEVEL 
+                            "You need to be at least at Level 20 in order to create a Knights"
+    IDP_KNIGHT_INSUFFICIENT_LOYALTY 
+                            "You need to have at least 800 National Points in order to create a Knights"
+    IDP_KNIGHT_INSUFFICIENT_SKILL 
+                            "You need to have at least 10 Leadership skill points and 5 Manner skill points in order to create a Knights"
+    IDP_KNIGHT_INSUFFICIENT_CHARISMA 
+                            "You need to have at least 120 Attractactiveness skill points in order to create a Knights"
+    IDP_KNIGHT_INSUFFICIENT_GOLD 
+                            "You need to have at least 1,000,000 Coins in order to create a Knights"
+    IDP_KNIGHT_CREATE_FAIL  "You have failed creating a Knights"
+    IDP_KNIGHT_NOT_AVAILABLE "This Knights does not exist"
+    IDP_KNIGHT_LEADER_ONLY  "This is authorized for Head of Knights only."
+    IDP_KNIGHT_MINIMUM_SUBLEADER 
+                            "This is authorized for ranks higher than Vice Head of Knights only."
+    IDP_KNIGHT_NOT_REGISTERED "Register Fail"
+    IDP_KNIGHT_DB_FAIL      "Database Fail"
+    IDP_WRONG_ID            "This ID does not exist"
+    IDP_SOURCE_UNABLE       "NULL"
+    IDP_MINIMUM_OFFICER     "This is authorized for ranks higher than officer"
+    IDP_ANNOUNCEMENT        "#### Notice : %s ####"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ELMORAD_LOSER       "El Morad lost the war. They killed %d warriors and lost %d warriors"
+    IDS_KARUS_LOSER         "Karus lost the war. They killed %d warriors and lost %d warriors"
+    IDS_BANISH_USER         "The users that are in Lunar Valley and the enemy’s territory will be teleported back to their own town"
+    IDS_BATTLE_CLOSE        "Lunar Gate is closing"
+    IDS_KILL_GATEKEEPER     "The user that killed the enemy’s gatekeeper is [%s][%s]. Congratulation."
+    IDS_KILL_CAPTAIN        "The user that killed the enemy’s captain is [%s][%s], Congratulation."
+    IDS_KILL_KARUS_GUARD1   "#### Notice : The chief gatekeeper of Karus 1st Fortress has been slain in battle. [%s][%s] has killed the ####"
+    IDS_KILL_KARUS_GUARD2   "#### Notice : The chief gatekeeper of Karus 2st Fortress has been slain in battle. [%s][%s] has killed the ####"
+    IDS_KILL_ELMO_GUARD1    "#### Notice : The chief gatekeeper of El Morad's 1st Fortress has been slain in battle. [%s][%s] has killed the ####"
+    IDS_KILL_ELMO_GUARD2    "#### Notice : The chief gatekeeper of El Morad's 2st Fortress has been slain in battle. [%s][%s] has killed the ####"
+    IDS_KARUS_CAPTAIN       "The captain(s) for Karus is(are) %s, %s, %s, %s, %s"
+    IDS_ELMO_CAPTAIN        "The captain(s) for El Morad is(are) %s, %s, %s, %s, %s"
+    IDS_KARUS_CAPTAIN_DEPRIVE 
+                            "[%s][%s], the captain for Karus has been killed"
+    IDS_ELMO_CAPTAIN_DEPRIVE 
+                            "[%s][%s], the captain for El Morad has been killed"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_COUPON_NOTEPAD_ID   "3572-8471-3720-2495"
+    IDS_COUPON_POSTIT_ID    "7352-6539-3720-2495"
+    IDS_DEATH_ANNOUNCEMENT  "- %s defeat %s ( %d, %d ) -"
+    IDS_MONSTER_CHALLENGE1_ANNOUNCEMENT 
+                            "#### Notice : At 11 Level 46 to 59 Lost Temple will begin. ####"
+    IDS_MONSTER_CHALLENGE_OPEN "#### Notice : Lost Temple has opened. ####"
+    IDS_KING_KARUS_PRIZE_EVENT_MESSAGE 
+                            "#### Notice : The king of Karus has awarded %s with %d Noahs as reward. ####"
+    IDS_KING_ELMO_PRIZE_EVENT_MESSAGE 
+                            "#### Notice : The king of El Morad has awarded %s with %d Noahs as reward. ####"
+    IDS_MONSTER_CHALLENGE2_ANNOUNCEMENT 
+                            "#### Notice: At 12 Level 60 to 83 Lost Temple will begin. ####"
+END
+
+#endif    // Korece (Güney Kore) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Çince (Geleneksel, Tayvan) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHT)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
+#pragma code_page(950)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "Ebenezer Á¤º¸(&A)..."
+    IDP_SOCKETS_INIT_FAILED "Windows Communication sockets initialization failed."
+    IDP_BATTLEZONE_OPEN     "Lunar Gate is now open.  The War has begun."
+    IDP_KARUS_VICTORY       "Karus is victorious. They killed %d warriors and lost %d warriors"
+    IDP_ELMORAD_VICTORY     "El Morad is victorious. They killed %d warriors and lost %d warriors"
+    IDP_KARUS_BANISH        "El Morad warriors in the battle zone have been banned!"
+    IDP_ELMORAD_BANISH      "Karus warriors in the battle zone have been banned!"
+    IDP_KNIGHT_NAME_REPEAT  "This Knights name already exist."
+    IDP_KNIGHT_ALREADY_REGISTERED "You are already in a Knights"
+END
+
+STRINGTABLE
+BEGIN
+    IDP_KNIGHT_INSUFFICIENT_LEVEL 
+                            "You need to be at least at Level 20 in order to create a Knights"
+    IDP_KNIGHT_INSUFFICIENT_LOYALTY 
+                            "You need to have at least 800 National Points in order to create a Knights"
+    IDP_KNIGHT_INSUFFICIENT_SKILL 
+                            "You need to have at least 10 Leadership skill points and 5 Manner skill points in order to create a Knights"
+    IDP_KNIGHT_INSUFFICIENT_CHARISMA 
+                            "You need to have at least 120 Attractactiveness skill points in order to create a Knights"
+    IDP_KNIGHT_INSUFFICIENT_GOLD 
+                            "You need to have at least 1,000,000 Coins in order to create a Knights"
+    IDP_KNIGHT_CREATE_FAIL  "You have failed creating a Knights"
+    IDP_KNIGHT_NOT_AVAILABLE "This Knights does not exist"
+    IDP_KNIGHT_LEADER_ONLY  "This is authorized for Head of Knights only."
+    IDP_KNIGHT_MINIMUM_SUBLEADER 
+                            "This is authorized for ranks higher than Vice Head of Knights only."
+    IDP_KNIGHT_NOT_REGISTERED "Register Fail"
+    IDP_KNIGHT_DB_FAIL      "Database Fail"
+    IDP_WRONG_ID            "This ID does not exist"
+    IDP_SOURCE_UNABLE       "NULL"
+    IDP_MINIMUM_OFFICER     "This is authorized for ranks higher than officer"
+    IDP_ANNOUNCEMENT        "#### Notice : %s ####"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ELMORAD_LOSER       "El Morad lost the war. They killed %d warriors and lost %d warriors"
+    IDS_KARUS_LOSER         "Karus lost the war. They killed %d warriors and lost %d warriors"
+    IDS_BANISH_USER         "The users that are in Lunar Valley and the enemy’s territory will be teleported back to their own town"
+    IDS_BATTLE_CLOSE        "Lunar Gate is closing"
+    IDS_KILL_GATEKEEPER     "The user that killed the enemy’s gatekeeper is [%s][%s]. Congratulation."
+    IDS_KILL_CAPTAIN        "The user that killed the enemy’s captain is [%s][%s], Congratulation."
+    IDS_KILL_KARUS_GUARD1   "#### Notice : The chief gatekeeper of Karus 1st Fortress has been slain in battle. [%s][%s] has killed the ####"
+    IDS_KILL_KARUS_GUARD2   "#### Notice : The chief gatekeeper of Karus 2st Fortress has been slain in battle. [%s][%s] has killed the ####"
+    IDS_KILL_ELMO_GUARD1    "#### Notice : The chief gatekeeper of El Morad's 1st Fortress has been slain in battle. [%s][%s] has killed the ####"
+    IDS_KILL_ELMO_GUARD2    "#### Notice : The chief gatekeeper of El Morad's 2st Fortress has been slain in battle. [%s][%s] has killed the ####"
+    IDS_KARUS_CAPTAIN       "The captain(s) for Karus is(are) %s, %s, %s, %s, %s"
+    IDS_ELMO_CAPTAIN        "The captain(s) for El Morad is(are) %s, %s, %s, %s, %s"
+    IDS_KARUS_CAPTAIN_DEPRIVE 
+                            "[%s][%s], the captain for Karus has been killed"
+    IDS_ELMO_CAPTAIN_DEPRIVE 
+                            "[%s][%s], the captain for El Morad has been killed"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_COUPON_NOTEPAD_ID   "3572-8471-3720-2495"
+    IDS_COUPON_POSTIT_ID    "7352-6539-3720-2495"
+    IDS_DEATH_ANNOUNCEMENT  "- %s defeat %s ( %d, %d ) -"
+    IDS_MONSTER_CHALLENGE1_ANNOUNCEMENT 
+                            "#### Notice : At 11 Level 46 to 59 Lost Temple will begin. ####"
+    IDS_MONSTER_CHALLENGE_OPEN "#### Notice : Lost Temple has opened. ####"
+    IDS_KING_KARUS_PRIZE_EVENT_MESSAGE 
+                            "#### Notice : The king of Karus has awarded %s with %d Noahs as reward. ####"
+    IDS_KING_ELMO_PRIZE_EVENT_MESSAGE 
+                            "#### Notice : The king of El Morad has awarded %s with %d Noahs as reward. ####"
+    IDS_MONSTER_CHALLENGE2_ANNOUNCEMENT 
+                            "#### Notice: At 12 Level 60 to 83 Lost Temple will begin. ####"
+    IDS_KING_EXP_BONUS_EVENT_STOP "EXP Increase Event is over."
+    IDS_MONSTER_CHALLENGE3_ANNOUNCEMENT 
+                            "#### Notice: Gate Keeper of Islant mountain: 70 above level Warriors!! I Will let you enter the cave now. ####"
+    IDS_MONSTER_SUMMONGM    "GM has summoned %s in %s area."
+END
+
+#endif    // Çince (Geleneksel, Tayvan) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE 18, 1
+#pragma code_page(949)
+#endif //_WIN32
+#include "res\Ebenezer.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.kor\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

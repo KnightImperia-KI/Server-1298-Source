@@ -1,0 +1,15 @@
+KnightImperia 1298 Server - Teleport / Warp Gate fixes
+
+Reference client:
+1298-Client-Source-master/Client/WarFare/GameProcMain.cpp
+
+Fixes applied:
+1. WIZ_WARP_LIST response now includes the 16-bit destination max-user field that the 1298 client reads after the destination zone.
+2. WIZ_ZONE_CHANGE / ZONE_CHANGE_TELEPORT now uses the 1298 client zone encoding:
+   zoneHigh = zone / 10
+   zoneLow  = zone % 10
+3. Zone-change X/Z are emitted as unsigned 16-bit coordinates, matching the client parser.
+4. Destination Y is recalculated from the destination map before WIZ_ZONE_CHANGE is sent, preventing stale Y from the previous zone during teleport-gate warps.
+5. Existing AIServer/Ebenezer/Client NPC packet fixes in the previous fixed archive are preserved.
+
+No client source files were modified.

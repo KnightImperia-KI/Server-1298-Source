@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.34112.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Aujard", "Aujard.vcxproj", "{3E538297-EF78-408A-BB00-C67044CD1136}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E538297-EF78-408A-BB00-C67044CD1136}.Debug|x86.ActiveCfg = Debug|Win32
+		{3E538297-EF78-408A-BB00-C67044CD1136}.Debug|x86.Build.0 = Debug|Win32
+		{3E538297-EF78-408A-BB00-C67044CD1136}.Release|x86.ActiveCfg = Release|Win32
+		{3E538297-EF78-408A-BB00-C67044CD1136}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {71E2C2EC-A607-4C3C-909A-F8DC821A021D}
+	EndGlobalSection
+EndGlobal
